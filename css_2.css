@@ -1,0 +1,53 @@
+.center-item0 {
+    display: flex;
+    justify-content: center;
+}
+
+.center-item1 {
+
+    margin: 0.4rem;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-image: url(bg_Argyle.jpg);
+    margin: 0; /* ボディの余白を削除 */
+    padding: 0; /* ボディのパディングを削除 */
+}
+
+
+.w {
+    width: fit-content;
+    border: 1px solid ;
+    border-radius: 5px;
+    width: 100%;
+    padding:5px;
+    margin:5px;
+    display:flex;
+
+}
+
+.yokonarabe2{
+    display:flex;
+    margin: 0; /* ボディの余白を削除 */
+    padding: 0; /* ボディのパディングを削除 */
+
+}
+
+.yokonarabe2 li{
+    list-style:none;
+    margin: 0; /* リストアイテム間の余白を削除 */
+    margin:8px;
+}
+
+.whitebox{
+    background-color: white;
+    max-width: 600px; /* 余分な横幅を制限 */
+    max-height: 700px   ;
+    margin: auto; /* 中央揃え */
+    padding: 20px; /* 余白を追加 */ 
+    box-shadow: 4px 0px 6px rgb(0, 0, 0); /* 右側に影を追加 */
+    border-radius: 10px; /* 外枠の丸みを設定 */
+
+}

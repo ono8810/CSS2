@@ -1,0 +1,57 @@
+.center-item0 {
+
+    /* 真ん中寄せ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-item1 {
+
+    /* 真ん中寄せ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-item2 {
+
+    /* 真ん中寄せ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-image: url(bg_Argyle.jpg);
+}
+
+.center-item3 {
+    /* 真ん中寄せ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.border1 {
+    border: double 10px #f90505;
+    /* 太さ10pxの赤色の二重線の枠線をひく*/
+}
+
+.border2 {
+    border-collapse: collapse;
+}
+
+.border2 tr {
+
+    border: 2px solid #f90505;
+}
+
+.border3 {
+    border-left: 3px solid #f90505
+}
+
+.flex {
+    display: flex;
+}

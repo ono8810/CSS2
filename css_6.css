@@ -1,0 +1,20 @@
+#container {
+    display: flex; /* ブロックを横に並べている */
+    width: 25%; /* ブロック全体の幅決め */
+    margin: auto; /* ブロック単位(div)を中央寄せ */
+}
+
+#contents {
+    background-color: rgb(255, 174, 0);
+    color: white;
+}
+
+#sub {
+    background-color: green;
+    color:white;
+}
+
+#container {
+    flex-direction: row-reverse;
+    /* contentsとsubの表示を入れ替えるためのコード */
+}
